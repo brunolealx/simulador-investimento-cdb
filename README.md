@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💹 Simulador de CDB - Wall Street Edition
 
-## Getting Started
+Simulador de **CDB** desenvolvido com **Next.js + TypeScript + TailwindCSS**, inspirado em interfaces bancárias profissionais. Permite calcular o rendimento de um investimento mensal considerando a **Selic anual** e visualizar o crescimento do seu dinheiro ao longo do tempo.
 
-First, run the development server:
+[🌐 Acesse Online](https://www.lealcreativex.com)
+
+---
+
+## 🖥️ Demonstração
+
+Acesse o projeto online no seu site: [www.lealcreativex.com](https://www.lealcreativex.com)
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- **Next.js 16** – Framework React moderno  
+- **TypeScript** – Tipagem estática para segurança  
+- **Tailwind CSS** – Estilização rápida e responsiva  
+- **React Chart.js 2** – Gráficos interativos  
+- **API Selic (Banco Central)** – Valor atualizado automaticamente  
+
+---
+
+## 🚀 Funcionalidades
+
+- Entrada de **Selic anual**, **aporte mensal** e **tempo de investimento**  
+- Cálculo automático de **resultado estimado** e **renda mensal aproximada**  
+- **Gráfico interativo** do crescimento do investimento  
+- Design moderno e profissional, inspirado em bancos e Wall Street  
+
+---
+
+## 💻 Como Rodar Localmente
+
+1. Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/brunolealx/simulador-investimento-cdb.git
+cd simulador-investimento-cdb
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+dépendencias 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm install
+# ou
+yarn install
+# ou
+pnpm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+agradeço um feedback , obrigado!
